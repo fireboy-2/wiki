@@ -212,3 +212,20 @@ header{
     border-color: #f1205f;
     transition: 0.3s;
 }
+.faq-img{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.faq-imgs{
+    text-align: center;
+}
+.main-text3{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
