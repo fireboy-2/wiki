@@ -9,7 +9,7 @@ function updateTime() {
 updateTime();
 setInterval(updateTime, 1000)
 function isMobileDevice() {
-    var mobileDeviceRegex = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+    var mobileDeviceRegex = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Tablet/i;
     return mobileDeviceRegex.test(navigator.userAgent);
   }
   
