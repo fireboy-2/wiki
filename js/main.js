@@ -23,3 +23,30 @@ function isMobileDevice() {
   if (isMobileDevice()) {
     displayMobileMessage();
   }
+anime({
+  targets: "#luckyloo",
+  color: [
+    {value: "#fc9003"},
+    {value: "#fc7f03"},
+    {value: "#fc7303"},
+    {value: "#fc9003"},
+    {value: "#fc7f03"},
+    {value: "#fc7303"},
+  ],
+  duration: 4000,
+  loop: true
+})
+
+anime({
+  targets: "#red-link",
+  color: [
+    {value: "#fc9003"},
+    {value: "#fc7f03"},
+    {value: "#fc7303"},
+    {value: "#fc9003"},
+    {value: "#fc7f03"},
+    {value: "#fc7303"},
+  ],
+  duration: 4000,
+  loop: true
+})
